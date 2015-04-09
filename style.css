@@ -1,13 +1,13 @@
+
 /**	General Layout*/
 body{
 	background: url(bg.png);
 	font-family:arial;
-	font-style:;
+	background-position: fixed;
 }
-#warper{
+#warpper{
 	width: 1000px;
   	margin: 50px 160px;
-  	margin-bottom: 15px;
   	background-color: #DEDAD3;
   	box-shadow: 1px 1px 1px 1px;
   	position:absolute;
@@ -73,11 +73,17 @@ a{
 	text-decoration: none;
 	background-color:#E68A00;
 }
+.first-p{
+	margin: 0px 35px;
+
+}
 .one-half{
+	margin-left: 35px;
 	float:left;
-	width:500px;
+	width:448px;
 	position: relative;
 }
+
 h1{
 	font-family: arial;
 	font-size: 3em;
@@ -85,20 +91,20 @@ h1{
   	color: #6b3b25;
  }
 p{
-	margin:35px;
 	line-height:24px;
 	font-size: 17px;
 	color:#6b3b25;
 }
 .one-third{
+	margin-left:35px;
 	float:left;	
-	width: 332px;
+	width: 285px;
 }
-#footer{ 
-	background: url(widgets.png);
-	height: 100px;
-	position: bottom;
 
+h5{
+	margin-top:-30px;
+	text-align: right;
+	color:white;
 }
 h3{
 	margin-left:35px;
@@ -124,3 +130,19 @@ input[type=submit]{
 	text-decoration: none;
 	background-color:#E68A00;
 }
+.address{
+	margin-left:35px;
+	margin-top: 35px;
+}
+form{
+	height:200px;
+}
+/*#footer{ 
+	background: url(widgets.png);
+	width:930px;
+	height: 30px;
+	bottom: 0;
+	margin-top: auto;
+	padding: 35px;
+
+}*/
